@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+li{
+	display: flex;
+	justify-content: center;
+}
+a{
+	padding: 25px;
+	border-radius: 15px;
+	background: orange;
+}
+div#images{
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 10%;
+}
+img{
+	width: 50%;
+}
+body{
+	background: #112345;
+}

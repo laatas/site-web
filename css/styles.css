@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+	background-color: #827775;
+	background-image: url(file:///C:/Users/anasl/OneDrive/Pictures/uchiha-sasuke-naruto-ix-1440x900.jpg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	padding-left: 900px;
+}
+ul{
+	display: flex;
+	justify-content: space-around;
+	padding: 5px;
+}
+li:hover{
+	opacity: 70%;
+	transition: 0.3s;
+}
+ul li.btn2{
+	display: flex;
+	justify-content: center;
+	align-content: flex-end;
+}
+li,h1,h3{
+	display: flex;
+	padding: 15px;
+	background-color: orange;
+	border-radius: 5px;
+}
